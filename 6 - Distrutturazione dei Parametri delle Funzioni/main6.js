@@ -5,8 +5,7 @@ const persona = {
     occupazione: "sviluppatrice"
 };
 
-const presentati = (obj) =>{
-    const {nome, occupazione} = obj;
+const presentati = ({nome, occupazione}) =>{     
     console.log(`Ciao, sono ${nome} e di mestiere faccio la ${occupazione}`);
 }
 

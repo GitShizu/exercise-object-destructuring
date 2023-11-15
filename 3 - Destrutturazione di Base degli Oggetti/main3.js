@@ -7,6 +7,6 @@ const film = {
     valutazione: 8.8
 };
 
-const {titolo,regista,anno,valutazione} = film;
+const {titolo,anno} = film;
 
 console.log(titolo, anno);

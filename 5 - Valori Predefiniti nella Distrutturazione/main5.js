@@ -6,5 +6,5 @@ const persona = {
     nome: "Bob"
 };
 
-const {nome, eta= 30} = persona;
+const {nome, eta = 30} = persona;
 // console.log(nome, eta);

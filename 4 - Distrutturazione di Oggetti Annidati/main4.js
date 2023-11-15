@@ -8,5 +8,5 @@ const utente = {
     }
 };
 
-const {nome, indirizzo: { via, citta } } = utente;
-// console.log(via, citta);
+const {indirizzo: {via,citta}} = utente;
+console.log(via, citta);
